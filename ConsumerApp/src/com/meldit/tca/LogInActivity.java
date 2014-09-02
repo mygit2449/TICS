@@ -225,6 +225,8 @@ public class LogInActivity extends Activity implements OnClickListener{
 		public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 			// TODO Auto-generated method stub
 			Log.i("listener_switch","=================================="+isChecked);
+			Log.i("listener_switch","=========git=========================");
+
 			Utilities.signin = true; 
 		}
 	};
